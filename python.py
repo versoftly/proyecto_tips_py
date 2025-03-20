@@ -8,7 +8,7 @@ print ("Tips Program")
 '''
 bill = input ("total del bill ? ")
 bill = float(bill)
-porcentaje = input ("tip % : 10 , 12 o 15 ")
+porcentaje = input ("tip % : 10 , 12 o 15 ? ")
 porcentaje = int(porcentaje)
 operacion_1 = porcentaje / 100
 tip = operacion_1 * bill
